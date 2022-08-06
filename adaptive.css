@@ -1,0 +1,65 @@
+@media all and (max-width: 992px) {
+  #cards1 {
+    width: 90%;
+  }
+
+  #cards2 {
+    width: 90%;
+  }
+
+  #kira {
+    font-size: 12px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  #carouselExampleCaptions {
+    width: 60%;
+    height: 60%;
+  }
+
+  #html {
+    width: 70%;
+  }
+
+  #cards1 {
+    width: 90%;
+  }
+
+  #cards2 {
+    width: 90%;
+  }
+
+  .card-text {
+    font-size: 13px;
+  }
+}
+
+@media all and (max-width: 320px) {
+  #carouselExampleCaptions {
+    width: 60%;
+    height: 60%;
+  }
+  #cards1 {
+    width: 103%;
+  }
+  #cards2 {
+    width: 103%;
+  }
+  .card-text {
+    font-size: 9px;
+  }
+  #giga {
+    display: none;
+  }
+  #about {
+    font-size: 16px;
+  }
+  .card-title {
+    font-size: 12px;
+  }
+
+  #html {
+    width: 90%;
+  }
+}

@@ -1,0 +1,485 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Aliia <3</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-gH2yIJqKdNHPEq0n4Mqa/HGKIhSkIHeL5AyhkYV8i59U5AR6csBvApHHNl/vI1Bx"
+      crossorigin="anonymous"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./adaptive.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+
+    <section class="top-nav container">
+      <div>
+        <img
+          src="./images/IMG_4966.PNG"
+          width="110"
+          class="border-bottom rounded-3 shadow"
+        />
+      </div>
+      <input id="menu-toggle" type="checkbox" />
+      <label class="menu-button-container" for="menu-toggle">
+        <div class="menu-button"></div>
+      </label>
+      <ul class="menu">
+        <li class="nav-item navbar__list-item">
+          <a class="nav-link text-white fw-light" href="#home">Home</a>
+        </li>
+        <li class="nav-item navbar__list-item">
+          <a class="nav-link text-white fw-light" href="#about_me">About me</a>
+        </li>
+        <li class="nav-item navbar__list-item">
+          <a class="nav-link text-white fw-light" href="#portfolio"
+            >Portfolio</a
+          >
+        </li>
+        <li class="nav-item navbar__list-item">
+          <a class="nav-link text-white fw-light" href="#contacts"
+            >Contact Me</a
+          >
+        </li>
+      </ul>
+    </section>
+
+    <!-- Navbar end -->
+
+    <!-- Home -->
+
+    <div class="container mt-3 d-flex border border-success" id="home">
+      <br />
+      <div class="card border-0" id="giga" style="width: 25rem">
+        <img
+          src="./images/me_but_gigachaded.jpeg"
+          class="card-img-top"
+          alt="..."
+          data-aos="fade-right"
+          data-aos-offset="300"
+          data-aos-easing="ease-in-sine"
+        />
+        <div class="card-body">
+          <p class="card-text" style="font-family: Josefin Sans, sans-serif">
+            That's me (no photoshop btw)
+          </p>
+        </div>
+      </div>
+
+      <div class="flex-column ms-5 text-white">
+        <h1 class="mt-5 mb-3" style="background-color: #43843c">Hi!</h1>
+        <h3 class="col-9 mt-5">
+          Aliia, 18 years. I live in Bishkek, Kyrgystan. I design web-sites for
+          one month. I have a cat.
+        </h3>
+        <h4 class="fw-light mt-4">I know Python and some HTML with CSS.</h4>
+        <a href="./html/download.html" id="home__link"
+          ><button class="home__button mt-5 fw-light text-white">
+            Download Resume
+          </button></a
+        >
+      </div>
+    </div>
+
+    <!-- Home end -->
+
+    <!-- About me -->
+
+    <div
+      class="container d-flex flex-column text-white align-items-center mt-5 border"
+      id="about_me"
+    >
+      <br />
+      <h1
+        style="border-bottom: 2px solid #43843c; border-left: 2px solid #43843c"
+      >
+        About Me
+      </h1>
+      <h5 id="about" class="text-center col-9 mt-3 mb-5">
+        I graduated from thirteen school and now I'm a second year student of
+        Ala-Too International University in the computer science faculty. Here I
+        want to tell you more about me.
+      </h5>
+      <div class="text-dark d-flex" id="cards1">
+        <div class="card me-5" id="cards" style="width: 20rem">
+          <img
+            src="./images/lang.jpeg"
+            class="card-img-top"
+            alt="..."
+            height="200"
+            data-aos="zoom-in-down"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Languages</h5>
+            <p class="card-text">
+              English, Russian, Turkish (little bit) and Kyrgyz.
+            </p>
+          </div>
+        </div>
+
+        <div class="card me-5" style="width: 20rem">
+          <img
+            src="./images/sport.jpeg"
+            class="card-img-top"
+            alt="..."
+            height="200"
+            data-aos="zoom-in-down"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Stronk</h5>
+            <p class="card-text">Black belt in Taekwon-do ITF</p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 20rem">
+          <img
+            src="./images/anime.jpeg"
+            class="card-img-top"
+            alt="..."
+            height="200"
+            data-aos="zoom-in-down"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Anime</h5>
+            <p class="card-text">
+              Some of my favorites: Berserk, Jojo, Bleach and Evangelion.
+            </p>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-dark d-flex mt-5" id="cards2">
+        <div class="card me-5" style="width: 20rem">
+          <img
+            src="./images/cat.jpeg"
+            class="card-img-top"
+            alt="..."
+            height="200"
+            data-aos="zoom-in-up"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Анекдот</h5>
+            <p class="card-text">
+              Умерли грузин, хохол и еврей. И попав на приём к богу все втроём
+              взмолились: - Отпусти нас обратно на землю, мало мы пожили ещё,
+              молодые совсем. - Хорошо,-ответил им бог, но только до первого
+              соблазна. И вот очутились они на земле, в каком-то доме.
+              Видят-стол накрыт, сала на нем видимо-невидимо. Только сел хохол
+              за стол и тут же пропал. А грузин и еврей вышли из дома и пошли
+              дальше. Вдруг видят на дороге 100 долларов лежат. Еврей наклонился
+              за деньгами и пропали оба.
+            </p>
+          </div>
+        </div>
+
+        <div class="card me-5" style="width: 20rem">
+          <img
+            src="./images/music.png"
+            class="card-img-top"
+            alt="..."
+            height="200"
+            data-aos="zoom-in-up"
+          />
+          <div class="card-body">
+            <h5 class="card-title">Music</h5>
+            <p class="card-text">
+              I can listen to any genre of music, mostly I prefer Valentin
+              Strykalo's songs. <br />
+              <br />
+              my favorite song:
+              <a
+                href="https://youtu.be/dQw4w9WgXcQ"
+                style="text-decoration: none; color: green"
+                >Click</a
+              >
+            </p>
+          </div>
+        </div>
+
+        <div class="card" style="width: 20rem">
+          <img
+            src="./images/aska"
+            class="card-img-top"
+            alt="..."
+            height="200"
+            data-aos="zoom-in-up"
+          />
+          <div class="card-body">
+            <h5 class="card-title">L</h5>
+            <p class="card-text">I can't ride bikes...</p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- About me end -->
+
+    <!-- Portfolio -->
+
+    <div
+      class="container d-flex align-items-center flex-column mt-5 border border-success"
+      id="portfolio"
+    >
+      <h1
+        class="mt-4 text-white"
+        style="border-bottom: 2px solid #43843c; border-left: 2px solid #43843c"
+      >
+        Portfolio
+      </h1>
+      <h4 class="fw-light text-white mt-4">Python</h4>
+      <div
+        id="carouselExampleCaptions"
+        class="carousel slide"
+        data-bs-ride="false"
+      >
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleCaptions"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"
+          ></button>
+          <button
+            type="button"
+            data-bs-target="#carouselVideoExample"
+            data-bs-slide-to="3"
+            aria-label="Slide 4"
+          ></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./images/akinator1.jpg" class="d-block w-100" />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>Akinator</h5>
+              <p>
+                This is a guesser game written in Python3 (Pygame was used).
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="./images/gameoflife.jpg"
+              class="d-block w-100"
+              alt="..."
+            />
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <h5>Game of life</h5>
+              <p>
+                The Game of Life, also known simply as Life, is a cellular
+                automaton devised by the British mathematician John Horton
+                Conway in 1970.
+              </p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img src="./images/gui.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-caption d-none d-md-block">
+              <h5>GUI</h5>
+              <p>Batch image processing.</p>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <video class="img-fluid" autoplay loop muted>
+              <source src="./images/img-4971_IEF1lPS3.mp4" type="video/mp4" />
+            </video>
+            <div class="carousel-caption d-none d-md-block text-dark">
+              <h5>Barsbek</h5>
+              <p>Chrome Dino look-a-like game.</p>
+            </div>
+          </div>
+        </div>
+        <button
+          class="carousel-control-prev"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="prev"
+        >
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next"
+          type="button"
+          data-bs-target="#carouselExampleCaptions"
+          data-bs-slide="next"
+        >
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+
+      <h4 class="text-white mt-5 fw-light">HTML and CSS</h4>
+
+      <div class="d-flex flex-row" id="html">
+        <div class="card me-5" style="width: 18rem">
+          <img src="./images/momentum.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">Richard</h5>
+            <p class="card-text">Maket</p>
+            <a
+              href="https://ceo-of-albeni.github.io/Richard/"
+              class="btn btn-success"
+              >See</a
+            >
+          </div>
+        </div>
+        <div class="card" style="width: 18rem">
+          <img src="./images/idm.jpg" class="card-img-top" alt="..." />
+          <div class="card-body">
+            <h5 class="card-title">I Do Marketing</h5>
+            <p class="card-text">Maket</p>
+            <a
+              href="https://ceo-of-albeni.github.io/idm/"
+              class="btn btn-success"
+              >See</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Portfolio end -->
+
+    <!-- Contacts -->
+
+    <div class="container d-flex align-items-center flex-column mt-5 border">
+      <h1
+        class="mt-4 text-white"
+        style="border-bottom: 2px solid #43843c; border-left: 2px solid #43843c"
+        id="contacts"
+      >
+        Contact Me
+      </h1>
+      <!-- <iframe
+        src="https://docs.google.com/forms/d/e/1FAIpQLSeKNBxr2gb2Z0pWZg-DbeYabPpozJ03DUuXQzQSfcS_g1DP0g/viewform?embedded=true"
+        width="800"
+        height="840"
+        frameborder="0"
+        marginheight="0"
+        marginwidth="0"
+        >Загрузка…</iframe
+      > -->
+    </div>
+
+    <!-- Contacts end -->
+
+    <!-- Footer -->
+
+    <footer
+      class="section footer-classic context-dark bg-image"
+      style="background: #2d4633"
+    >
+      <div class="container">
+        <div class="row row-30">
+          <div class="col-md-4 col-xl-5 mt-5">
+            <div class="pr-xl-4">
+              <p id="kira">
+                Watashi no na wa Kira Yoshikage. Renrei sanjyuu sansai. Jitaku
+                wa Morioh-cho hokuto no bu no bessojidai ni ari, kekkon wa
+                shiite-inai, Shigoto wa Kame-yu chen-ten no kai sha-in de,
+                maiinichi osokuto mo yoru hachii-ji made ni wa kitakusuru.
+              </p>
+              <!-- Rights-->
+              <p class="footer__rights">
+                <span>© </span
+                ><span class="footer__right_copyright-year">2020</span
+                ><span> </span><span>Company</span><span> - </span
+                ><span>All Rights Reserved.</span>
+              </p>
+            </div>
+          </div>
+          <div class="col-md-4 mt-4">
+            <h5>Contacts</h5>
+            <dl class="footer__contact-list">
+              <dt>Address:</dt>
+              <dd>Bishkek, Kyrgystan</dd>
+            </dl>
+            <dl class="footer__contact-list">
+              <dt>email:</dt>
+              <dd><a href="mailto:#">malaevaid@gmail.com</a></dd>
+            </dl>
+            <dl class="footer__contact-list">
+              <dt>phones:</dt>
+              <dd>
+                <a href="tel:#">0554065075</a>
+              </dd>
+            </dl>
+          </div>
+          <div class="col-md-4 col-xl-3 mt-4">
+            <h5>Links</h5>
+            <ul class="footer__nav-list">
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about_me">About Me</a></li>
+              <li><a href="#portfolio">Portfolio</a></li>
+              <li><a href="./html/pricing.html">Pricing</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row no-gutters social-container">
+        <div class="col">
+          <a
+            class="social-inner"
+            href="https://www.facebook.com/vansamaofficial"
+            ><span class="icon mdi mdi-facebook"></span><span>Facebook</span></a
+          >
+        </div>
+        <div class="col">
+          <a class="social-inner" href="https://www.instagram.com/plaesebo/"
+            ><span class="icon mdi mdi-instagram"></span
+            ><span>Instagram</span></a
+          >
+        </div>
+        <div class="col">
+          <a class="social-inner" href="https://github.com/ceo-of-albeni"
+            ><span class="icon mdi mdi-github"></span><span>GitHub</span></a
+          >
+        </div>
+        <div class="col">
+          <a
+            class="social-inner"
+            href="https://www.youtube.com/watch?v=QDJipO2W2_Q"
+            ><span class="icon mdi mdi-youtube-play"></span
+            ><span>Youtube</span></a
+          >
+        </div>
+      </div>
+    </footer>
+    <!-- Footer end -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
+      crossorigin="anonymous"
+    ></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
