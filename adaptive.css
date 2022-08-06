@@ -1,10 +1,20 @@
 @media all and (max-width: 992px) {
   #cards1 {
-    width: 90%;
+    width: 100%;
   }
 
   #cards2 {
-    width: 90%;
+    width: 100%;
+  }
+
+  #hi {
+    font-size: 17px;
+  }
+  #Aliia {
+    font-size: 18px;
+  }
+  #know {
+    font-size: 18px;
   }
 
   #kira {
@@ -14,24 +24,33 @@
 
 @media all and (max-width: 768px) {
   #carouselExampleCaptions {
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    height: 80%;
   }
 
   #html {
     width: 70%;
   }
-  
-  #anek {
-    display: none;
+  #hi {
+    font-size: 15px;
+  }
+  #Aliia {
+    font-size: 13px;
+  }
+  #know {
+    font-size: 13px;
   }
 
   #cards1 {
-    width: 90%;
+    width: 100%;
   }
 
   #cards2 {
-    width: 90%;
+    width: 80%;
+  }
+
+  #anek {
+    display: none;
   }
 
   .card-text {
@@ -39,10 +58,10 @@
   }
 }
 
-@media all and (max-width: 320px) {
+@media all and (max-width: 380px) {
   #carouselExampleCaptions {
-    width: 90%;
-    height: 90%;
+    width: 80%;
+    height: 80%;
   }
   #cards1 {
     width: 103%;
@@ -50,11 +69,11 @@
   #cards2 {
     width: 103%;
   }
-  #anek {
-    display: none;
-  }
   .card-text {
     font-size: 9px;
+  }
+  #anek {
+    display: none;
   }
   #giga {
     display: none;
