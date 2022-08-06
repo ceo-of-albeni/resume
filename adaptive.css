@@ -21,6 +21,10 @@
   #html {
     width: 70%;
   }
+  
+  #anek {
+    display: none;
+  }
 
   #cards1 {
     width: 90%;
@@ -45,6 +49,9 @@
   }
   #cards2 {
     width: 103%;
+  }
+  #anek {
+    display: none;
   }
   .card-text {
     font-size: 9px;
