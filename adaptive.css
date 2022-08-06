@@ -14,8 +14,8 @@
 
 @media all and (max-width: 768px) {
   #carouselExampleCaptions {
-    width: 60%;
-    height: 60%;
+    width: 90%;
+    height: 90%;
   }
 
   #html {
@@ -37,8 +37,8 @@
 
 @media all and (max-width: 320px) {
   #carouselExampleCaptions {
-    width: 60%;
-    height: 60%;
+    width: 90%;
+    height: 90%;
   }
   #cards1 {
     width: 103%;
